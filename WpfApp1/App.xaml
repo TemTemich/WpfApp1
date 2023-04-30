@@ -4,6 +4,8 @@
              xmlns:local="clr-namespace:WpfApp1"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <FontFamily x:Key="Minecraft">./4197-font.ttf</FontFamily>
+
+
     </Application.Resources>
 </Application>

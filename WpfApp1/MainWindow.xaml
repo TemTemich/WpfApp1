@@ -5,10 +5,122 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        xmlns:gif="http://wpfanimatedgif.codeplex.com"
+
+        Title="MainWindow" Height="450" Width="831">
+    <Window.Background>
+        <ImageBrush ImageSource="/bandicam 2022-01-14 20-17-21-509.jpg"/>
+    </Window.Background>
     <Grid>
-        <Button Content="Button" HorizontalAlignment="Left" Height="224" Margin="269,82,0,0" VerticalAlignment="Top" Width="224" Opacity="0.98" BorderThickness="1,1,1,1" Click="Button_Click"/>
-        <Label Name ="textBox"  Margin="40,41,590,298"   FontSize="30"/>
+        <Grid.Background>
+            <ImageBrush/>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="14*"/>
+            <ColumnDefinition Width="263*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="82*"/>
+            <RowDefinition Height="135*"/>
+        </Grid.RowDefinitions>
+        <Button Name="CookieButton" Content="" HorizontalAlignment="Left" Height="132" Margin="262,108,0,0" VerticalAlignment="Top" Width="224" Opacity="0.98" BorderThickness="1,1,1,1" Click="Button_Click" Grid.Column="1" Grid.RowSpan="2" BorderBrush="Transparent" Foreground="Transparent">
+            <Button.Background>
+                <ImageBrush ImageSource="/Minecraft.Mod.Clicker.Coockie.png" Stretch="Fill" TileMode="None"/>
+            </Button.Background>
+        </Button>
+        <Label Name ="textBox"  Margin="40,41,590,28"   FontSize="30" Grid.ColumnSpan="2" FontFamily="Minecraft Rus"/>
+        <Button Content="Records" Margin="542,10,25,110" Click="Button_Click_1" Grid.Column="1" FontFamily="Minecraft Rus" BorderBrush="Transparent" Foreground="White">
+            <Button.Background>
+                <ImageBrush ImageSource="/bandicam 2022-01-20 22-42-02-870.png"/>
+            </Button.Background>
+        </Button>
+        <Label Name ="records" Content="lul" HorizontalAlignment="Left" Height="222" Margin="558,91,0,0" VerticalAlignment="Top" Width="190" FontSize="15" Grid.RowSpan="2" Grid.Column="1"/>
+        <TextBlock Name="RecordTxtLabel" Text="Рекорды: " TextWrapping="Wrap" Margin="598,59,50,43" FontSize="21" RenderTransformOrigin="0.5,0.5" Grid.Column="1" FontFamily="Minecraft Rus">
+            <TextBlock.Background>
+                <ImageBrush/>
+            </TextBlock.Background>
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-3.65"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-2.043"/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <Button Name="CrossButton" Content="X" HorizontalAlignment="Left" Margin="738,63,0,0" VerticalAlignment="Top" Width="19" Click="Button_Click_2" Background="#FFFF0707" Height="19" Grid.Column="1"/>
+        <Button Name="UpdateRecordsButton" Content="O" HorizontalAlignment="Left" Height="19" Margin="713,63,0,0" VerticalAlignment="Top" Width="20" Background="#FFF6FF2E" Click="UpdateRecordsButton_Click" RenderTransformOrigin="1.014,0.263" Grid.Column="1"/>
+        <Button Name="AddRecordButton" Content="AddRecord" HorizontalAlignment="Left" Margin="525,181,0,0" Grid.Row="1" VerticalAlignment="Top" Height="68" Width="229" BorderBrush="#00EABC41" Click="AddRecordButton_Click" Grid.Column="1" FontFamily="Minecraft Rus" Foreground="White">
+            <Button.Background>
+                <ImageBrush ImageSource="/bandicam 2022-01-20 22-42-02-870.png"/>
+            </Button.Background>
+        </Button>
+        <Grid Name="MainMenuGrid" HorizontalAlignment="Left" Height="864" VerticalAlignment="Top" Width="1184" Margin="-176,-64,0,0" Grid.RowSpan="2" Background="#FF020202" Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0*"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="329*"/>
+                <RowDefinition Height="41*"/>
+                <RowDefinition Height="494*"/>
+            </Grid.RowDefinitions>
+            <Button Name="NextButton" Content="->" HorizontalAlignment="Left" Height="50" Margin="846,12,0,0" VerticalAlignment="Top" Width="54" Background="Lime" FontSize="25" Click="Button_Click_3" Grid.Row="2" Grid.ColumnSpan="2"/>
+            <TextBox Name="NicknameTextBox" HorizontalAlignment="Left" Margin="307,12,0,0" Grid.Row="2" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="534" Height="50" FontSize="34" Grid.ColumnSpan="2"/>
+            <TextBlock HorizontalAlignment="Left" Margin="307,196,0,0" Text="Введите имя" TextWrapping="Wrap" VerticalAlignment="Top" Height="127" Width="593" Background="Black" Foreground="White" FontSize="100" Grid.ColumnSpan="2"/>
+
+        </Grid>
+        <Grid Name="Choose_Mod_Grid" HorizontalAlignment="Left" Height="430" Grid.RowSpan="2" VerticalAlignment="Top" Width="832" Background="Black" Grid.ColumnSpan="2">
+            <Button Name ="Fart_Mod_Button" Content="???????" Margin="209,189,209,186" Click="Fart_Mod_Button_Click" FontFamily="Comic Sans MS" FontSize="30" Foreground="White">
+                <Button.Background>
+                    <ImageBrush ImageSource="/preview.jpg"/>
+                </Button.Background>
+            </Button>
+            <Button Name="Minecraft_Mod_Button" Content="Minecraft"  Margin="209,114,209,263" Click="Minecraft_Mod_Button_Click" Foreground="White" BorderBrush="#00000000" FontSize="20" FontFamily="Minecraft Rus">
+                <Button.Background>
+                    <ImageBrush ImageSource="/Mincraft_Mod_Button_Texture2,0.png"/>
+                </Button.Background>
+                <!--
+                <Grid>
+                    <Image Stretch="Fill" gif:ImageBehavior.AnimatedSource="C:\Users\TUF Gaming\Desktop\Stuff\WpfApp1\WpfApp1\200.gif" Margin="0,0,-16,0"/>
+
+                </Grid>-->
+
+
+            </Button>
+
+            <Label Content="Choose type" HorizontalAlignment="Center" Margin="0,33,0,0" VerticalAlignment="Top" Height="63" Width="242" Foreground="White" FontSize="40" FontFamily="Comic Sans MS" FontWeight="Bold" FontStyle="Normal"/>
+
+        </Grid>
+        <Grid Name ="Far_Mode_Grid" Margin="0,-34,-1,-30" Grid.RowSpan="2" Background="#FFE8FF00" Grid.ColumnSpan="2">
+            <Button Name ="Do_Fart"  Content="" HorizontalAlignment="Center" Margin="0,167,0,0" VerticalAlignment="Top" Height="150" Width="150" FontFamily="Comic Sans MS" FontSize="18" Click="Do_Fart_Click" RenderTransformOrigin="0.507,0.45" BorderBrush="#00707070">
+                <Button.Background>
+                    <ImageBrush ImageSource="/61y0mMWVR7L.png"/>
+                </Button.Background>
+            </Button>
+            <Label Name ="textBox1" Content="Perss The Button" HorizontalAlignment="Center" Margin="0,80,0,0" VerticalAlignment="Top" Height="64" Width="308" FontSize="40"/>
+            <Button Name="Recs1" Content="Records" HorizontalAlignment="Left" VerticalAlignment="Top" Height="42" Width="246" Margin="566,29,0,0" Click="Recs1_Click_1"/>
+            <Grid Name="RecsRecs" HorizontalAlignment="Left" Height="436" Margin="570,55,0,0" VerticalAlignment="Top" Width="256">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="29*"/>
+                    <ColumnDefinition Width="227*"/>
+                </Grid.ColumnDefinitions>
+                <Label Name ="Your_Recs" Content="" Margin="10,48,10,106" Grid.ColumnSpan="2"/>
+                <Button Name="UpdateRecord" Content="O" HorizontalAlignment="Left" Height="20" Margin="131,10,0,0" VerticalAlignment="Top" Width="20" Background="#FF51FF00" Click="UpdateRecord_Click" Grid.Column="1"/>
+                <Button Name="CloseReords" Content="X" HorizontalAlignment="Left" Height="20" Margin="175,10,0,0" VerticalAlignment="Top" Width="20" Background="Red" Grid.Column="1" Click="CloseReords_Click"/>
+                <Button Name="AddRecord" Content="AddRecord" HorizontalAlignment="Left" Height="72" Margin="131,330,0,0" VerticalAlignment="Top" Width="86" Click="AddRecord_Click" Grid.Column="1"/>
+                <Label Content="Рекорды:" Margin="0,0,149,393" Grid.ColumnSpan="2" FontSize="20" FontFamily="Comic Sans MS"/>
+                <Button Name="EraseRecord" Content="Erase Record" Grid.Column="1" HorizontalAlignment="Left" Margin="14,330,0,0" VerticalAlignment="Top" Height="72" Width="85" Click="EraseRecordButton_Click"/>
+
+
+            </Grid>
+            <Label Name="MemeButton" Content="LOL!" HorizontalAlignment="Left" Height="61" Margin="220,362,0,0" VerticalAlignment="Top" Width="94" FontSize="40" FontFamily="Comic Sans MS"/>
+
+
+        </Grid>
+
+
 
     </Grid>
 </Window>

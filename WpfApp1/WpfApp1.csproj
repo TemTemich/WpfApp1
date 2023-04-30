@@ -6,4 +6,38 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="200.gif" />
+    <None Remove="409-4094133_minecraft-cookie-png-transparent-png.png" />
+    <None Remove="61y0mMWVR7L.png" />
+    <None Remove="aaaaa.png" />
+    <None Remove="bandicam 2022-01-14 20-14-57-114.jpg" />
+    <None Remove="bandicam 2022-01-14 20-17-21-509.jpg" />
+    <None Remove="bandicam 2022-01-20 22-42-02-870.png" />
+    <None Remove="Mincraft_Mod_Button_Texture.png" />
+    <None Remove="Mincraft_Mod_Button_Texture2,0.png" />
+    <None Remove="Minecraft.Mod.Clicker.Coockie.png" />
+    <None Remove="preview.jpg" />
+    <None Remove="wooden-table.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WpfAnimatedGif" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="200.gif" />
+    <Resource Include="409-4094133_minecraft-cookie-png-transparent-png.png" />
+    <Resource Include="61y0mMWVR7L.png" />
+    <Resource Include="aaaaa.png" />
+    <Resource Include="bandicam 2022-01-14 20-14-57-114.jpg" />
+    <Resource Include="bandicam 2022-01-14 20-17-21-509.jpg" />
+    <Resource Include="bandicam 2022-01-20 22-42-02-870.png" />
+    <Resource Include="Mincraft_Mod_Button_Texture.png" />
+    <Resource Include="Mincraft_Mod_Button_Texture2,0.png" />
+    <Resource Include="Minecraft.Mod.Clicker.Coockie.png" />
+    <Resource Include="preview.jpg" />
+    <Resource Include="wooden-table.jpg" />
+  </ItemGroup>
+
 </Project>

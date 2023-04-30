@@ -20,3 +20,29 @@ D:\ABOBA\WpfApp1\WpfApp1\obj\Debug\net5.0-windows\WpfApp1.dll
 D:\ABOBA\WpfApp1\WpfApp1\obj\Debug\net5.0-windows\ref\WpfApp1.dll
 D:\ABOBA\WpfApp1\WpfApp1\obj\Debug\net5.0-windows\WpfApp1.pdb
 D:\ABOBA\WpfApp1\WpfApp1\obj\Debug\net5.0-windows\WpfApp1.genruntimeconfig.cache
+C:\Users\TUF Gaming\Desktop\Stuff\WpfApp1\WpfApp1\bin\Debug\net5.0-windows\WpfApp1.exe
+C:\Users\TUF Gaming\Desktop\Stuff\WpfApp1\WpfApp1\bin\Debug\net5.0-windows\WpfApp1.deps.json
+C:\Users\TUF Gaming\Desktop\Stuff\WpfApp1\WpfApp1\bin\Debug\net5.0-windows\WpfApp1.runtimeconfig.json
+C:\Users\TUF Gaming\Desktop\Stuff\WpfApp1\WpfApp1\bin\Debug\net5.0-windows\WpfApp1.runtimeconfig.dev.json
+C:\Users\TUF Gaming\Desktop\Stuff\WpfApp1\WpfApp1\bin\Debug\net5.0-windows\WpfApp1.dll
+C:\Users\TUF Gaming\Desktop\Stuff\WpfApp1\WpfApp1\bin\Debug\net5.0-windows\ref\WpfApp1.dll
+C:\Users\TUF Gaming\Desktop\Stuff\WpfApp1\WpfApp1\bin\Debug\net5.0-windows\WpfApp1.pdb
+C:\Users\TUF Gaming\Desktop\Stuff\WpfApp1\WpfApp1\obj\Debug\net5.0-windows\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\TUF Gaming\Desktop\Stuff\WpfApp1\WpfApp1\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\TUF Gaming\Desktop\Stuff\WpfApp1\WpfApp1\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\TUF Gaming\Desktop\Stuff\WpfApp1\WpfApp1\obj\Debug\net5.0-windows\WpfApp1_MarkupCompile.cache
+C:\Users\TUF Gaming\Desktop\Stuff\WpfApp1\WpfApp1\obj\Debug\net5.0-windows\WpfApp1_MarkupCompile.lref
+C:\Users\TUF Gaming\Desktop\Stuff\WpfApp1\WpfApp1\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\TUF Gaming\Desktop\Stuff\WpfApp1\WpfApp1\obj\Debug\net5.0-windows\WpfApp1.g.resources
+C:\Users\TUF Gaming\Desktop\Stuff\WpfApp1\WpfApp1\obj\Debug\net5.0-windows\WpfApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TUF Gaming\Desktop\Stuff\WpfApp1\WpfApp1\obj\Debug\net5.0-windows\WpfApp1.AssemblyInfoInputs.cache
+C:\Users\TUF Gaming\Desktop\Stuff\WpfApp1\WpfApp1\obj\Debug\net5.0-windows\WpfApp1.AssemblyInfo.cs
+C:\Users\TUF Gaming\Desktop\Stuff\WpfApp1\WpfApp1\obj\Debug\net5.0-windows\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\TUF Gaming\Desktop\Stuff\WpfApp1\WpfApp1\obj\Debug\net5.0-windows\WpfApp1.dll
+C:\Users\TUF Gaming\Desktop\Stuff\WpfApp1\WpfApp1\obj\Debug\net5.0-windows\ref\WpfApp1.dll
+C:\Users\TUF Gaming\Desktop\Stuff\WpfApp1\WpfApp1\obj\Debug\net5.0-windows\WpfApp1.pdb
+C:\Users\TUF Gaming\Desktop\Stuff\WpfApp1\WpfApp1\obj\Debug\net5.0-windows\WpfApp1.genruntimeconfig.cache
+C:\Users\TUF Gaming\Desktop\Stuff\WpfApp1\WpfApp1\obj\Debug\net5.0-windows\App.baml
+C:\Users\TUF Gaming\Desktop\Stuff\WpfApp1\WpfApp1\bin\Debug\net5.0-windows\WpfAnimatedGif.dll
+D:\ABOBA\WpfApp1\WpfApp1\bin\Debug\net5.0-windows\WpfAnimatedGif.dll
+D:\ABOBA\WpfApp1\WpfApp1\obj\Debug\net5.0-windows\App.baml

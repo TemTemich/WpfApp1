@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "DujsXhO34ouJOz5mEZ13rCYC81XXIXLrQL8RLuQUV5+eSUFl38eNYgko6YEDom92zwONe+1z182Eta35Fyw0vQ==",
+  "dgSpecHash": "PfHSrXkfqd235gesOgqkbv2Tk91CjAuKkKyOjyMtSrqTILnUvE0Uzv7lMv0ur3B9sq61/rYbDnJv3KyVJv/I+g==",
   "success": true,
   "projectFilePath": "D:\\ABOBA\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\TUF Gaming\\.nuget\\packages\\wpfanimatedgif\\2.0.2\\wpfanimatedgif.2.0.2.nupkg.sha512"
+  ],
   "logs": []
 }
